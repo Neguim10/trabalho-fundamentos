@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Cabeçalho</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <!-- CABEÇALHO COMEÇA AQUI -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Cabeçalho</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <header id="header">
-      <div class="container">
-        <div class="flex">
-          <a href="index.html">
-            <img src="Img/logo.png" />
-          </a>
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Redes Sociais</a></li>
-            </ul>
-          </nav>
+<body>
+  <!-- CABEÇALHO COMEÇA AQUI -->
 
-          <div class="btn-contato">
-            <a href="#"><button>Contato</button></a>
+  <header id="header">
+    <div class="container">
+      <div class="flex">
+        <a href="index.html">
+          <img src="Img/logo.png" />
+        </a>
+        <nav id="hotbar">
+          <ul>
+            <li><a href="#">Mulheres</a></li>
+            <li><a href="#">Homens</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Crianças</a></li>
+            <li><a href="#">Roupas</a></li>
+            <li><a href="#">Calçados</a></li>
+            <li><a href="#">Acessório</a></li>
+            <li><a href="#">Marcas</a></li>
+          </ul>
+
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="" />
+            <img class="icon" src="img-icons/magnifying-glass.png" id="btnBusca" alt="Buscar" />
           </div>
+        </nav>
+
+        <div>
+          <a class="icon" href="index.html">
+            <img class="icon" src="img-icons/user.png" />
+          </a>
         </div>
+        <div>
+          <a href="index.html">
+            <img class="icon" src="img-icons/heart.png" />
+          </a>
+        </div>
+        <div>
+          <a href="index.html">
+            <img class="icon" src="img-icons/bag.png" />
+          </a>
+        </div>
+
+        <!-- <div class="btn-contato">
+          <a href="#"><button>Contato</button></a>
+        </div> -->
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="banner">
-      <h1>SEJA <span>BEM VINDO</span></h1>
-    </section>
+  <section class="banner">
+    <h1>SEJA <span>BEM VINDO</span></h1>
+  </section>
 
-    <!-- FIM DO CABEÇALHO -->
+  <!-- FIM DO CABEÇALHO -->
 
-    <!-- AQUI COMEÇA O CORPO -->
-    <div id="cards">
+  <!-- AQUI COMEÇA O CORPO -->
+  <div id="cards">
+
     <body class="corpo">
       <div class="card">
         <img src="img-camisa/BRASIL.jpg" /> <br />
@@ -50,58 +78,59 @@
         </div>
       </div>
 
-            <div class="card">
-          <img src="img-camisa/REAL-MADRID.jpg" /> <br />
-          <div>
-            <h1>Camisa do Real Madrid</h1>
-            <h2>Camisa masculina do Real Madrid</h2>
-            <span>R$ 299,99</span>
-            <button>Ver Mais</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="img-camisa/BARCELONA.jpg" /> <br />
-          <div>
-            <h1>Camisa do Barcelona</h1>
-            <h2>Camisa masculina do Barcelona</h2>
-            <span>R$ 299,99</span>
-            <button>Ver Mais</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="img-camisa/LIVERPOOL.jpg" /> <br />
-          <div>
-            <h1>Camisa do Liverpool</h1>
-            <h2>Camisa masculina do Liverpool</h2>
-            <span>R$ 299,99</span>
-            <button>Ver Mais</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="img-camisa/ATLÉTICO-MINEIRO.jpg" /> <br />
-          <div>
-            <h1>Camisa do Atlético Mineiro</h1>
-            <h2>Camisa masculina do Atlético Mineiro</h2>
-            <span>R$ 299,99</span>
-            <button>Ver Mais</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="img-camisa/PARIS-SAINT-GERMAN.jpg" /> <br />
-          <div>
-            <h1>Camisa do Paris Saint German</h1>
-            <h2>Camisa masculina do Paris Saint German</h2>
-            <span>R$ 299,99</span>
-            <button>Ver Mais</button>
-          </div>
+      <div class="card">
+        <img src="img-camisa/REAL-MADRID.jpg" /> <br />
+        <div>
+          <h1>Camisa do Real Madrid</h1>
+          <h2>Camisa masculina do Real Madrid</h2>
+          <span>R$ 299,99</span>
+          <button>Ver Mais</button>
         </div>
       </div>
-    </body>
 
-    <script src="script.js"></script>
-  </body>
+      <div class="card">
+        <img src="img-camisa/BARCELONA.jpg" /> <br />
+        <div>
+          <h1>Camisa do Barcelona</h1>
+          <h2>Camisa masculina do Barcelona</h2>
+          <span>R$ 299,99</span>
+          <button>Ver Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img-camisa/LIVERPOOL.jpg" /> <br />
+        <div>
+          <h1>Camisa do Liverpool</h1>
+          <h2>Camisa masculina do Liverpool</h2>
+          <span>R$ 299,99</span>
+          <button>Ver Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img-camisa/ATLÉTICO-MINEIRO.jpg" /> <br />
+        <div>
+          <h1>Camisa do Atlético Mineiro</h1>
+          <h2>Camisa masculina do Atlético Mineiro</h2>
+          <span>R$ 299,99</span>
+          <button>Ver Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img-camisa/PARIS-SAINT-GERMAN.jpg" /> <br />
+        <div>
+          <h1>Camisa do Paris Saint German</h1>
+          <h2>Camisa masculina do Paris Saint German</h2>
+          <span>R$ 299,99</span>
+          <button>Ver Mais</button>
+        </div>
+      </div>
+  </div>
+</body>
+
+<script src="script.js"></script>
+</body>
+
 </html>
