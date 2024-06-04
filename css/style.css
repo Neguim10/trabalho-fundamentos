@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  height: 500vh;
+  background-image: url(../Img/Fundo.jpg);
+
+  /* <a href='https://pt.pngtree.com/freebackground/abstract-metallic-black-red-frame-on-carbon-kevlar-texture-pattern_1206326.html'>fotos de fundo grátis de pt.pngtree.com/</a>*/
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+  width: 100%;
+  padding: 10px 5%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Img/banner-hotbar.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+header.rolagem {
+  background: transparent;
+  background-image: none;
+  padding: 20px 4%;
+}
+
+header.rolagem a,
+header.rolagem img {
+  color: #fff;
+
+}
+
+header img {
+  width: 90px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #D90404;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#hotbar {
+  display: flex;
+  align-items: center;
+}
+
+#divBusca {
+  background-color: #2F4F4F;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 170px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#divBusca img {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 125px;
+}
+
+.btn-contato button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #D90404;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn-contato button:hover {
+  background-color: #93A2BF;
+  color: black;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url(../Img/BACKGROUND2.jpg);
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 4em;
+}
+
+.banner h1 span {
+  color: #93A2BF;
+}
+
+/* FIM DO CSS CABEÇALHO */
+
+/* INÍCIO DO CSS CORPO */
+
+.corpo {
+  display: fix;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  gap: 16px;
+  background-color: #5c5c5c;
+  /* margin-right: 10px; */
+}
+
+.Meio #cards{
+  margin: 0 10px;
+}
+
+#cards {
+  width: 200px;
+  height: 440px;
+  float: right;
+}
+
+.card {
+  background-color: lightseagreen;
+  width: 200px;
+  height: 440px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaaa;
+  margin-bottom: 20px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  max-width: 100%;
+  display: block;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: .9rem;
+  color: #fff;
+  text-align: center;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 4px;
+  width: 120px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  flex: 1 1 200px;
+  margin: 50px;
+  display: block;
+}
+
+.card button:hover {
+  background-color: #aaaa;
+  color: black;
+  cursor: pointer;
+}
+
+/* FIM DO CSS CORPO */
+
+/* INÍCIO DO CSS RODAPÉ */
+
+
+
+/* FIM DO CSS RODAPÉ */
+
+/* INÍCIO DO CSS BARRA DE ROLAGEM */
+
+::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(58, 58, 58, 0.235);
+
+}
+/* FIM DO CSS BARRA DE ROLAGEM */

@@ -1,0 +1,18 @@
+/* Estilos do container (ex: #produtos) */
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+  align-items: center;
+}
+
+/* Estilos dos elementos (ex: .card) */
+.card {
+  flex: 0 0 calc(25% - 20px);
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+
+
