@@ -1,0 +1,44 @@
+[
+  {
+    "imagem": "../img/img-camisa/BRASIL.jpg",
+    "titulo": "Camisa da Seleção Brasileira",
+    "descricao": "Camisa masculina da seleção brasileira",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  },
+  {
+    "imagem": "../img/img-camisa/REAL-MADRID.jpg",
+    "titulo": "Camisa do Real Madrid",
+    "descricao": "Camisa masculina do Real Madrid",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  },
+  {
+    "imagem": "../img/img-camisa/BARCELONA.jpg",
+    "titulo": "Camisa do Barcelona",
+    "descricao": "Camisa masculina do Barcelona",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  },
+  {
+    "imagem": "../img/img-camisa/LIVERPOOL.jpg",
+    "titulo": "Camisa do Liverpool",
+    "descricao": "Camisa masculina do Liverpool",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  },
+  {
+    "imagem": "../img/img-camisa/ATLÉTICO-MINEIRO.jpg",
+    "titulo": "Camisa do Atlético Mineiro",
+    "descricao": "Camisa masculina do Atlético Mineiro",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  },
+  {
+    "imagem": "../img/img-camisa/PARIS-SAINT-GERMAN.jpg",
+    "titulo": "Camisa do Paris Saint German",
+    "descricao": "Camisa masculina do Paris Saint German",
+    "preco": "R$ 299,99",
+    "botao": "Ver Mais"
+  }
+]
