@@ -68,7 +68,7 @@ header ul {
 
 header ul li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 50px;
 }
 
 header ul li a {
@@ -91,7 +91,7 @@ header ul li a:hover {
   background-color: #2F4F4F;
   border: solid 1px;
   border-radius: 15px;
-  width: 170px;
+  width: 155px;
   text-align: center;
   display: flex;
   align-items: center;
