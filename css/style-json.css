@@ -1,0 +1,66 @@
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.Card {
+  flex: 0 0 calc(25% - 20px);
+  margin: 20px;
+  box-sizing: border-box;
+  width: 200px;
+  height: auto;
+  /* Ajusta a altura da Card automaticamente */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaaa;
+  background-color: aquamarine;
+}
+
+.Card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: block;
+}
+
+.Card div {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card h1 {
+  font-size: 1.2rem;
+}
+
+.Card h2 {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.Card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 4px;
+  width: 120px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: block;
+}
+
+.Card button:hover {
+  background-color: #aaaa;
+  color: black;
+  cursor: pointer;
+}
