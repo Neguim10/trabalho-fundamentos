@@ -1,0 +1,22 @@
+/* Estilo para telas menores (móveis) */
+@media (max-width: 768px) {
+    .card {
+        display: none;
+    }
+
+    .userbar {
+        display: none;
+    }
+
+    .banner h1{
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 856px) and (min-width: 768px){
+    .userbar li {
+        margin: 0 20px;
+    }
+}
+
+/* Estilo para telas maiores (desktops) */
